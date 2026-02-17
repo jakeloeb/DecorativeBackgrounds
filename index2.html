@@ -114,7 +114,7 @@ background: #000000 !important;
 					void main(){
 						vec4 textureColor = texture2D( texture, gl_PointCoord );
 						if ( textureColor.a < 0.3 ) discard;
-						vec4 dotColor = vec4(0.90, 0.90, 0.92, 0.80);
+						vec4 dotColor = vec4(0.75, 0.76, 0.78, 0.70);
 						vec4 color = dotColor * textureColor;
 						gl_FragColor = color;
 					}
